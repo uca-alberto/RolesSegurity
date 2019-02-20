@@ -81,6 +81,12 @@ namespace Seguridad
             User.Text = Session["Usuario"].ToString();
 
         }
+        protected void CloseSession(object sender, EventArgs e)
+        {
+            Session.Abandon();
+            Response.Redirect("../Login/Login.aspx");
+
+        }
 
         //protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)
         //{

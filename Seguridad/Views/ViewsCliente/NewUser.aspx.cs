@@ -5,19 +5,19 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Seguridad
+namespace Seguridad.Views.ViewsCliente
 {
-    public partial class Verificacion : System.Web.UI.Page
+    public partial class NewUser : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["Usuario"].Equals("ALBERTO") || Session["Usuario"].Equals("MARIA"))
+            if (Session["Usuario"].Equals("ALBERTO"))
             {
-                Response.Redirect("/Login/Index.aspx");
+                //Response.Redirect("NewUser.aspx");
             }
             else
             {
-                Response.Redirect("ErrorRol.aspx");
+                Response.Redirect("../../ErrorRol.aspx");
             }
         }
     }

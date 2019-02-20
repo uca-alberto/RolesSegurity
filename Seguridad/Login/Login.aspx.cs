@@ -23,10 +23,14 @@ namespace Seguridad.Login
                 if (userpass!=null)
                 {
                     Session["Usuario"] = userpass;
-                    Response.Redirect("../Verificacion.aspx");
+                    Response.Redirect("Index.aspx");
+                }
+                else
+                {
+                    
                 }
             }
-            catch
+            catch(Exception)
             {
 
             }
