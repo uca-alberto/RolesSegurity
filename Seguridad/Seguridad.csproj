@@ -120,6 +120,7 @@
     <Content Include="Content\build\images\back_disabled.png" />
     <Content Include="Content\build\images\back_enabled.png" />
     <Content Include="Content\build\images\back_enabled_hover.png" />
+    <Content Include="Content\build\images\denegado.png" />
     <Content Include="Content\build\images\forward_disabled.png" />
     <Content Include="Content\build\images\forward_enabled.png" />
     <Content Include="Content\build\images\forward_enabled_hover.png" />
@@ -4649,6 +4650,7 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
+      <UserProperties Content_4vendors_4bootstrap_4dist_4css_4bootstrap_1css_1map__JSONSchema="" />
     </VisualStudio>
   </ProjectExtensions>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

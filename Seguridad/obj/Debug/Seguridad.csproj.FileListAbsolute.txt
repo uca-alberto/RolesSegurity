@@ -147,8 +147,8 @@ C:\Users\pc\Documents\GitHub\RolesSegurity\Seguridad\bin\Microsoft.AspNet.Teleme
 C:\Users\pc\Documents\GitHub\RolesSegurity\Seguridad\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\pc\Documents\GitHub\RolesSegurity\Seguridad\bin\es\System.Web.Optimization.resources.dll
 C:\Users\pc\Documents\GitHub\RolesSegurity\Seguridad\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
-C:\Users\pc\Documents\GitHub\RolesSegurity\Seguridad\obj\Debug\Seguridad.csprojAssemblyReference.cache
 C:\Users\pc\Documents\GitHub\RolesSegurity\Seguridad\obj\Debug\Seguridad.csproj.CoreCompileInputs.cache
 C:\Users\pc\Documents\GitHub\RolesSegurity\Seguridad\obj\Debug\Seguridad.csproj.CopyComplete
 C:\Users\pc\Documents\GitHub\RolesSegurity\Seguridad\obj\Debug\Seguridad.dll
 C:\Users\pc\Documents\GitHub\RolesSegurity\Seguridad\obj\Debug\Seguridad.pdb
+C:\Users\pc\Documents\GitHub\RolesSegurity\Seguridad\obj\Debug\Seguridad.csprojAssemblyReference.cache
