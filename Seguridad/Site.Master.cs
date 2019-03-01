@@ -70,7 +70,7 @@ namespace Seguridad
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            String userid = (string)Session["Usuario"];
+            String userid = (string)Session["Rol"];
             if (!IsPostBack)
             {
                 if (userid == "" || userid == null)
@@ -80,11 +80,13 @@ namespace Seguridad
             }
             User.Text = Session["Usuario"].ToString();
 
+
         }
         protected void CloseSession(object sender, EventArgs e)
         {
             Session.Abandon();
             Response.Redirect("../Login/Login.aspx");
+
 
         }
 

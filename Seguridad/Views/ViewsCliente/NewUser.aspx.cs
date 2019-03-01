@@ -7,13 +7,15 @@ namespace Seguridad.Views.ViewsCliente
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["Usuario"].Equals("ALBERTO"))
+            if (Session["Rol"].Equals("ADMIN") )
             {
                 //Response.Redirect("NewUser.aspx");
             }
             else
             {
                 Response.Redirect("../../ErrorRol.aspx");
+                
+
             }
             if (!IsPostBack)
             {

@@ -19,11 +19,15 @@ namespace Seguridad.Login
             try
             {
                 LogueoTableAdapters.UsuarioTableAdapter usuario = new LogueoTableAdapters.UsuarioTableAdapter();
-                String userpass = usuario.Autenti(UserDB.Text,PasswordDB.Text);
-                if (userpass!=null)
+                String userpass = usuario.Acceder(UserDB.Text,PasswordDB.Text);
+                String user = usuario.User(UserDB.Text, PasswordDB.Text);
+                if (user!=null)
                 {
-                    Session["Usuario"] = userpass;
+                    Session["Rol"] = userpass;
+                    Session["Usuario"] = user;
+
                     Response.Redirect("Index.aspx");
+
                 }
                 else
                 {
