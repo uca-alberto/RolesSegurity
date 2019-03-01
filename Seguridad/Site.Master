@@ -61,10 +61,10 @@
               <div class="menu_section">
                 <h3>General</h3>
                 <ul class="nav side-menu">
-                  <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-users"></i> Control Usuarios <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="/Views/ViewsCliente/NewUser.aspx">Dashboard</a></li>
-                      <li><a href="index2.html">Dashboard2</a></li>
+                      <li><a href="/Views/ViewsUser/NewUser.aspx">Añadir Usuario</a></li>
+                      <li><a href="/Views/ViewsUser/VerUser.aspx">Buscar Usuario</a></li>
                       <li><a href="index3.html">Dashboard3</a></li>
                     </ul>
                   </li>
@@ -259,7 +259,7 @@
     <!-- bootstrap-daterangepicker -->
     <script src="/Content/vendors/moment/min/moment.min.js"></script>
     <script src="/Content/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
-
+    <script src="/Content/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js"></script>
     <!-- Custom Theme Scripts -->
     <script src="/Content/build/js/custom.min.js"></script>
        
