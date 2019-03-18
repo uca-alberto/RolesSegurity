@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <title>Login Corpsoft</title>
      <!-- Bootstrap -->
     <link href="../Content/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <!-- Font Awesome -->
@@ -28,7 +28,7 @@
         <div class="animate form login_form">
           <section class="login_content">
             <form runat="server"> 
-              <h1>Login Form</h1>
+              <h1>Login</h1>
               <div>
                   <asp:TextBox runat="server" CssClass="form-control" PlaceHolder="User" ToolTip="Username" required="" ID="UserDB"></asp:TextBox>
               </div>
@@ -36,10 +36,8 @@
                   <asp:TextBox runat="server" CssClass="form-control" PlaceHolder="Contraseña" ToolTip="Contraseña" required="" ID="PasswordDB" TextMode="Password"></asp:TextBox>
               </div>
               <div>
-                  <asp:Button Text="Acceder" runat="server" CssClass="btn btn-default submit" ID="Login1" OnClick="Login_Click" />
-              
+                  <asp:Button Text="Acceder" runat="server" CssClass="btn btn-default submit" ID="Login1" OnClick="Login_Click" /> 
               </div>
-
               <div class="clearfix"></div>
 
               <div class="separator">
